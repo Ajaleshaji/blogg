@@ -1,4 +1,4 @@
-import { product } from "@/backend/lib/product";
+import { product } from "../../../backend/lib/product";
 
 export const GET = () => {
   return Response.json({ status: "Success", data: product });
